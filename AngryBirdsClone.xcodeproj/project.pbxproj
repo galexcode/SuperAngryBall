@@ -67,6 +67,7 @@
 		45291B98145C761200AEEA17 /* CSceneStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 45291B91145C761200AEEA17 /* CSceneStyle.m */; };
 		45291BA1145C9AC000AEEA17 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45291BA0145C9AC000AEEA17 /* CViewController.m */; };
 		452F2645146E3F5D002EF2EB /* ObjectTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 452F2644146E3F5D002EF2EB /* ObjectTemplates.plist */; };
+		4562D437148FE7DE00613B52 /* CGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4562D436148FE7DE00613B52 /* CGameView.m */; };
 		456BEB78146DD535004C4D31 /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 456BEAC9146DD534004C4D31 /* chipmunk.c */; };
 		456BEB79146DD535004C4D31 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 456BEACA146DD534004C4D31 /* CMakeLists.txt */; };
 		456BEB7A146DD535004C4D31 /* cpConstraint.c in Sources */ = {isa = PBXBuildFile; fileRef = 456BEACC146DD534004C4D31 /* cpConstraint.c */; };
@@ -97,7 +98,6 @@
 		456BEB93146DD535004C4D31 /* cpSpatialIndex.c in Sources */ = {isa = PBXBuildFile; fileRef = 456BEAE5146DD534004C4D31 /* cpSpatialIndex.c */; };
 		456BEB94146DD535004C4D31 /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = 456BEAE6146DD534004C4D31 /* cpSweep1D.c */; };
 		456BEB95146DD535004C4D31 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 456BEAE7146DD534004C4D31 /* cpVect.c */; };
-		456BEBAD146E07C3004C4D31 /* CGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BEBAC146E07C3004C4D31 /* CGameView.m */; };
 		456BEBE3146E2D11004C4D31 /* CGameSceneGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 456BEBE2146E2D10004C4D31 /* CGameSceneGeometry.m */; };
 		4576D6A5146727BF0057CC72 /* CFlat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D6A4146727BF0057CC72 /* CFlat.m */; };
 		45A2F13514676A3400125256 /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = 45A2F13414676A3400125256 /* Levels */; };
@@ -220,6 +220,8 @@
 		45291B9F145C9AC000AEEA17 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
 		45291BA0145C9AC000AEEA17 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		452F2644146E3F5D002EF2EB /* ObjectTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ObjectTemplates.plist; sourceTree = "<group>"; };
+		4562D435148FE7DE00613B52 /* CGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGameView.h; sourceTree = "<group>"; };
+		4562D436148FE7DE00613B52 /* CGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGameView.m; sourceTree = "<group>"; };
 		456BEA8D146DD534004C4D31 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
 		456BEA8E146DD534004C4D31 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
 		456BEA8F146DD534004C4D31 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
@@ -276,8 +278,6 @@
 		456BEAE6146DD534004C4D31 /* cpSweep1D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpSweep1D.c; sourceTree = "<group>"; };
 		456BEAE7146DD534004C4D31 /* cpVect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpVect.c; sourceTree = "<group>"; };
 		456BEAE8146DD534004C4D31 /* prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prime.h; sourceTree = "<group>"; };
-		456BEBAB146E07C3004C4D31 /* CGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGameView.h; path = "../../../Development/Source/Current Projects/CGameView.h"; sourceTree = "<group>"; };
-		456BEBAC146E07C3004C4D31 /* CGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGameView.m; path = "../../../Development/Source/Current Projects/CGameView.m"; sourceTree = "<group>"; };
 		456BEBE1146E2D10004C4D31 /* CGameSceneGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGameSceneGeometry.h; sourceTree = "<group>"; };
 		456BEBE2146E2D10004C4D31 /* CGameSceneGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGameSceneGeometry.m; sourceTree = "<group>"; };
 		4576D6A3146727BF0057CC72 /* CFlat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFlat.h; sourceTree = "<group>"; };
@@ -348,8 +348,8 @@
 				45291BA0145C9AC000AEEA17 /* CViewController.m */,
 				45F108A5146701A600F8DB00 /* CGameRenderer.h */,
 				45F108A6146701A600F8DB00 /* CGameRenderer.m */,
-				456BEBAB146E07C3004C4D31 /* CGameView.h */,
-				456BEBAC146E07C3004C4D31 /* CGameView.m */,
+				4562D435148FE7DE00613B52 /* CGameView.h */,
+				4562D436148FE7DE00613B52 /* CGameView.m */,
 				45A2F13714676A4200125256 /* CGameLevel.h */,
 				45A2F13814676A4200125256 /* CGameLevel.m */,
 				456BEBE1146E2D10004C4D31 /* CGameSceneGeometry.h */,
@@ -874,8 +874,8 @@
 				456BEB93146DD535004C4D31 /* cpSpatialIndex.c in Sources */,
 				456BEB94146DD535004C4D31 /* cpSweep1D.c in Sources */,
 				456BEB95146DD535004C4D31 /* cpVect.c in Sources */,
-				456BEBAD146E07C3004C4D31 /* CGameView.m in Sources */,
 				456BEBE3146E2D11004C4D31 /* CGameSceneGeometry.m in Sources */,
+				4562D437148FE7DE00613B52 /* CGameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
